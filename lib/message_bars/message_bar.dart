@@ -155,6 +155,7 @@ class MessageBar extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(),
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: InkWell(
