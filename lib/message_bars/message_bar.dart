@@ -121,6 +121,7 @@ class MessageBar extends StatelessWidget {
                   Expanded(
                     child: Container(
                       child: TextField(
+                        style: TextStyle(fontSize: 16),
                         controller: _textController,
                         keyboardType: TextInputType.multiline,
                         textCapitalization: TextCapitalization.sentences,
@@ -133,7 +134,7 @@ class MessageBar extends StatelessWidget {
                           contentPadding: const EdgeInsets.symmetric(
                               horizontal: 8.0, vertical: 10),
                           hintStyle: TextStyle(
-                            fontSize: 16,
+                            fontSize: 17,
                           ),
                           fillColor: Colors.white,
                           filled: true,
@@ -155,7 +156,7 @@ class MessageBar extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(width: 3),
+                  SizedBox(width: 5),
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: InkWell(
