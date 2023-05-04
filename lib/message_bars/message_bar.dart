@@ -155,14 +155,14 @@ class MessageBar extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(),
+                  SizedBox(width: 3),
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: InkWell(
                       child: Icon(
                         Icons.send,
                         color: sendButtonColor,
-                        size: 24,
+                        size: 30,
                       ),
                       onTap: () {
                         if (_textController.text.trim() != '') {
