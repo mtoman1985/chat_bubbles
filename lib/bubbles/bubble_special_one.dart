@@ -44,7 +44,7 @@ class BubbleSpecialOne extends StatelessWidget {
       stateIcon = Icon(
         Icons.done,
         size: 18,
-        color: Color(0xFF97AD8E),
+        color: Color(0xFFFFFFFF),
       );
     }
     if (delivered) {
@@ -52,7 +52,7 @@ class BubbleSpecialOne extends StatelessWidget {
       stateIcon = Icon(
         Icons.done_all,
         size: 18,
-        color: Color(0xFF97AD8E),
+        color: Color(0xFFFFFFFF),
       );
     }
     if (seen) {
@@ -60,7 +60,7 @@ class BubbleSpecialOne extends StatelessWidget {
       stateIcon = Icon(
         Icons.done_all,
         size: 18,
-        color: Color(0xFF92DEDA),
+        color: Color(0xFF5697CB),
       );
     }
 
