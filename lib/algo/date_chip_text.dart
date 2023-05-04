@@ -1,8 +1,11 @@
+import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 ///initial formatter to find the date txt
 final DateFormat _formatter = DateFormat('yyyy-MM-dd');
+final Color _seen = Color(0xFF5697CB);
 
+//final Color _seen =  Color(0xFF5697CB);
 ///[DateChipText] class included with algorithms which are need to implement [DateChip]
 ///[date] parameter is required
 ///
